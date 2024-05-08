@@ -1,0 +1,108 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+.main{
+    text-align: center;
+}
+.distance-main{
+    text-align: center;
+}
+.distance-sub{
+    text-align: center;
+    margin-top: 20px;
+}
+.currancy-main, .fahertaine-main, .gb-main{
+    text-align: center;
+}
+.main{
+    background-color:black;
+    height: 690px;
+}
+.main h2{
+    color: white;
+    font-size: 40px;
+    padding-top: 200px;
+}
+.distance-main h1 , .currancy-main h1 , .fahertaine-main h1 ,.gb-main h1{
+    padding-top: 50px;
+    color: white;
+}
+.distance-main h2 ,.fahertaine-main h2 ,.currancy-main h2 ,.gb-main h2 {
+    margin: 15px 0px;
+    color: white;
+}
+.distance-main .btn-one , .currancy-main .btn-one , .fahertaine-main .btn-one ,.gb-main .btn-one{
+    border-radius: 20px;
+    border: 1px solid white;
+    outline: none;
+    padding: 8px;
+    color: white;
+    transition: all 0.2s;
+    background-color:transparent;
+}
+.gb-main .btn-one:hover{
+    box-shadow:-1px 0px 3px 4px #64CCC5;
+}
+.currancy-main .btn-one:hover{
+    box-shadow:-1px 0px 3px 4px #64CCC5;
+}
+.fahertaine-main .btn-one:hover{
+    box-shadow:-1px 0px 3px 4px #64CCC5;
+}
+.distance-main .btn-one:hover{
+    box-shadow:-1px 0px 3px 4px #64CCC5;
+}
+.distance-main #op-km , #op-feet , #op-meter ,#py-feet ,#px-china ,#po-jy ,#aj-aus ,#ax-np ,#x-gb ,#x-mb ,#op-gb{
+    color: white;
+    margin:10px 0px;
+}
+.distance-main h2{
+    margin: 15px 0px;
+}
+.distance-main input , .currancy-main input , .fahertaine-main input ,.gb-main input{
+	background-color:transparent;
+	border:none;
+    color: white;
+    outline: none;
+	border-bottom:2px solid white;
+    /* border: none; */
+}
+.distance-main input:hover{
+    border-bottom: 2px solid #64CCC5;
+}
+.currancy-main input:hover{
+    border-bottom: 2px solid #64CCC5;
+}
+.fahertaine-main input:hover{
+    border-bottom: 2px solid #64CCC5;
+}
+.gb-main input:hover{
+    border-bottom: 2px solid #64CCC5;
+}
+.sub, .third ,.four ,.five{
+    background-color: black;
+    height: 690px;
+}
+.distance-main button , .currancy-main button , .fahertaine-main button ,.gb-main button{
+    margin: 20px 0px;
+}
+a{
+    text-decoration: none;
+}
+.main .btn-one a{
+    color: white; 
+}
+.main .btn-one{
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid white;
+    margin:50px 20px;
+    outline: none;
+    transition: all 0.2s;
+    background-color:transparent;
+}
+.main .btn-one:hover{
+    box-shadow:-1px 0px 3px 4px #64CCC5;
+}
